@@ -9,7 +9,6 @@ import com.guoxiaoxing.ijkplayer.extension.video.GSYBaseVideoPlayer;
 
 /**
  * 处理屏幕旋转的的逻辑
- * Created by shuyu on 2016/11/11.
  */
 
 public class OrientationUtils {
@@ -30,10 +29,10 @@ public class OrientationUtils {
     public OrientationUtils(Activity activity, GSYBaseVideoPlayer gsyVideoPlayer) {
         this.activity = activity;
         this.gsyVideoPlayer = gsyVideoPlayer;
-        init();
+        setup();
     }
 
-    private void init() {
+    private void setup() {
         orientationEventListener = new OrientationEventListener(activity) {
             @Override
             public void onOrientationChanged(int rotation) {
@@ -150,7 +149,6 @@ public class OrientationUtils {
         }
         return 0;
     }
-
 
     public boolean isEnable() {
         return mEnable;

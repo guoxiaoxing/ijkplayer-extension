@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import com.guoxiaoxing.ijkplayer.extension.demo.R;
 import com.guoxiaoxing.ijkplayer.extension.demo.listener.OnTransitionListener;
 import com.guoxiaoxing.ijkplayer.extension.demo.model.SwitchVideoModel;
-import com.guoxiaoxing.ijkplayer.extension.demo.video.SumaVideoView;
+import com.guoxiaoxing.ijkplayer.extension.demo.video.ExtensionVideoView;
 import com.guoxiaoxing.ijkplayer.extension.GSYVideoPlayer;
 import com.guoxiaoxing.ijkplayer.extension.utils.OrientationUtils;
 
@@ -31,12 +31,10 @@ public class PlayActivity extends AppCompatActivity {
     public final static String TRANSITION = "TRANSITION";
 
     @BindView(R.id.video_player)
-    SumaVideoView videoPlayer;
+    ExtensionVideoView videoPlayer;
 
     OrientationUtils orientationUtils;
-
     private boolean isTransition;
-
     private Transition transition;
 
     @Override
@@ -45,15 +43,15 @@ public class PlayActivity extends AppCompatActivity {
         setContentView(R.layout.activity_play);
         ButterKnife.bind(this);
         isTransition = getIntent().getBooleanExtra(TRANSITION, false);
-        init();
+        setupView();
     }
 
-    private void init() {
+    private void setupView() {
         String url = "http://baobab.wdjcdn.com/14564977406580.mp4";
 
         //String url = "http://7xse1z.com1.z0.glb.clouddn.com/1491813192";
         //需要路径的
-        //videoPlayer.setUp(url, true, new File(FileUtils.getPath()), "");
+        //videoPlayer.setupUrl(url, true, new File(FileUtils.getPath()), "");
 
         //借用了jjdxm_ijkplayer的URL
         String source1 = "http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f20.mp4";
@@ -68,7 +66,7 @@ public class PlayActivity extends AppCompatActivity {
         list.add(switchVideoModel);
         list.add(switchVideoModel2);
 
-        videoPlayer.setUp(list, true, "");
+        videoPlayer.setupUrl(list, true, "");
 
         //增加封面
         ImageView imageView = new ImageView(this);

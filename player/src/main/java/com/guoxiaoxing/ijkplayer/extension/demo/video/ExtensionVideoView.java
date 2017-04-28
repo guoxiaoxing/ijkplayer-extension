@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class SumaVideoView extends StandardGSYVideoPlayer {
+public class ExtensionVideoView extends StandardGSYVideoPlayer {
 
     private TextView mMoreScale;
 
@@ -39,15 +39,15 @@ public class SumaVideoView extends StandardGSYVideoPlayer {
     /**
      * 1.5.0开始加入，如果需要不同布局区分功能，需要重载
      */
-    public SumaVideoView(Context context, Boolean fullFlag) {
+    public ExtensionVideoView(Context context, Boolean fullFlag) {
         super(context, fullFlag);
     }
 
-    public SumaVideoView(Context context) {
+    public ExtensionVideoView(Context context) {
         super(context);
     }
 
-    public SumaVideoView(Context context, AttributeSet attrs) {
+    public ExtensionVideoView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
@@ -111,8 +111,6 @@ public class SumaVideoView extends StandardGSYVideoPlayer {
                     mCoverImageView.setRotation(mCoverImageView.getRotation() + 90);
                     mCoverImageView.requestLayout();
                 }
-
-
             }
         });
 
@@ -126,7 +124,7 @@ public class SumaVideoView extends StandardGSYVideoPlayer {
      * @param objects       object[0]目前为title
      * @return
      */
-    public boolean setUp(List<SwitchVideoModel> url, boolean cacheWithPlay, Object... objects) {
+    public boolean setupUrl(List<SwitchVideoModel> url, boolean cacheWithPlay, Object... objects) {
         mUrlList = url;
         return setUp(url.get(0).getUrl(), cacheWithPlay, objects);
     }
@@ -140,7 +138,7 @@ public class SumaVideoView extends StandardGSYVideoPlayer {
      * @param objects       object[0]目前为title
      * @return
      */
-    public boolean setUp(List<SwitchVideoModel> url, boolean cacheWithPlay, File cachePath, Object... objects) {
+    public boolean setupUrl(List<SwitchVideoModel> url, boolean cacheWithPlay, File cachePath, Object... objects) {
         mUrlList = url;
         return setUp(url.get(0).getUrl(), cacheWithPlay, cachePath, objects);
     }
@@ -189,6 +187,4 @@ public class SumaVideoView extends StandardGSYVideoPlayer {
         });
         switchVideoTypeDialog.show();
     }
-
-
 }
