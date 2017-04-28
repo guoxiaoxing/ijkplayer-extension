@@ -42,3 +42,4 @@
 ### 进度条小窗口预览
 
 <img src="https://github.com/CarGuo/GSYVideoPlayer/blob/master/07.gif" width="426px" height="240px"/>
+
