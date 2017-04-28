@@ -4,7 +4,13 @@
 
 > 一款功能丰富的在线视频播放器，支持拖动，声音、亮度调节，快进快退，视频旋转，视频弹幕，小窗播放，进度条小窗口预览。
 
-<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/video_player_1.png" width="50%"/><img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/video_player_2.png" width="50%"/>
+竖屏
+
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/video_player_2.png" width="250" height="500"/>
+
+横屏
+
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/video_player_1.png" width="500" height="250"/>
 
 
 ## 功能演示
