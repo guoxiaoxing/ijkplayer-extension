@@ -2,6 +2,13 @@
 
 <img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/ijkplayer_extension.png" width="100" height="100"/>
 
+> 一款功能强大的视频播放器。
+
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/video_player_1.png" width="500" height="300"/>
+
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/video_player_2.png" width="300" height="500"/>
+
+
 ## 功能演示
 
 * **支持基本的拖动，声音、亮度调节。**

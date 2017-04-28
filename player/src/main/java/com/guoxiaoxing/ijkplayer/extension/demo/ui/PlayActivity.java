@@ -54,13 +54,11 @@ public class PlayActivity extends AppCompatActivity {
         //videoPlayer.setupUrl(url, true, new File(FileUtils.getPath()), "");
 
         //借用了jjdxm_ijkplayer的URL
-//        String source1 = "http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f20.mp4";
-        String source1 = "http://vfx.mtime.cn/Video/2017/04/12/mp4/170412221449869141.mp4";
+        String source1 = "http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f20.mp4";
         String name = "普通";
         SwitchVideoModel switchVideoModel = new SwitchVideoModel(name, source1);
 
-        String source2 = "http://vfx.mtime.cn/Video/2017/04/12/mp4/170412221449869141.mp4";
-//        String source2 = "http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f30.mp4";
+        String source2 = "http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f30.mp4";
         String name2 = "清晰";
         SwitchVideoModel switchVideoModel2 = new SwitchVideoModel(name2, source2);
 
