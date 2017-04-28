@@ -1,6 +1,6 @@
 # 多功能视频播放器
 
-<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/ijkplayer_extension.png"/>
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/ijkplayer_extension.png" width="50" height="50"/>
 
 ## 功能演示
 
