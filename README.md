@@ -1,5 +1,7 @@
 # 多功能视频播放器
 
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/ijkplayer_extension.png"/>
+
 ## 功能演示
 
 * **支持基本的拖动，声音、亮度调节。**
@@ -27,19 +29,19 @@
 
 ### 全屏播放
 
-<img src="https://github.com/CarGuo/GSYVideoPlayer/blob/master/01.gif" width="240px" height="426px"/>
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/01.gif" width="240px" height="426px"/>
 
 ### 列表/详情模式
 
-<img src="https://github.com/CarGuo/GSYVideoPlayer/blob/master/02.gif" width="240px" height="426px"/>
-<img src="https://github.com/CarGuo/GSYVideoPlayer/blob/master/05.gif" width="240px" height="426px"/>
-<img src="https://github.com/CarGuo/GSYVideoPlayer/blob/master/04.gif" width="240px" height="426px"/>
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/02.gif" width="240px" height="426px"/>
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/05.gif" width="240px" height="426px"/>
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/04.gif" width="240px" height="426px"/>
 
 ### 视频弹幕
 
-<img src="https://github.com/CarGuo/GSYVideoPlayer/blob/master/09.gif" width="360px" height="240px"/>
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/09.gif" width="360px" height="240px"/>
 
 ### 进度条小窗口预览
 
-<img src="https://github.com/CarGuo/GSYVideoPlayer/blob/master/07.gif" width="426px" height="240px"/>
+<img src="https://github.com/guoxiaoxing/ijkplayer-extension/raw/master/art/07.gif" width="426px" height="240px"/>
 

@@ -8,7 +8,7 @@ android {
     buildToolsVersion globalConfiguration.androidBuildToolsVersion
 
     defaultConfig {
-        applicationId "com.example.gsyvideoplayer"
+        applicationId "com.guoxiaoxing.ijkplayer.extension.demo"
 
         minSdkVersion globalConfiguration.androidMinSdkVersion
         targetSdkVersion globalConfiguration.androidTargetSdkVersion
